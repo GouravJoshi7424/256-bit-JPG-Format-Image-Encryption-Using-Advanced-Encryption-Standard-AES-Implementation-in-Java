@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" modified="2023-06-09T07:34:10.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DmLbRpAgrNeW-sbQoQS-" version="21.3.8" type="device">
+  <diagram name="Page-1" id="XLf9AEX2oXlhBvcO4EH2">
+    <mxGraphModel dx="1229" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DX3mFn6jVcHR1opbcVc2-1" target="DX3mFn6jVcHR1opbcVc2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3mFn6jVcHR1opbcVc2-1" value="&lt;b&gt;Upload JPG Image&lt;br&gt;(GUI)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="350" y="40" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DX3mFn6jVcHR1opbcVc2-2" target="iNnOa1lNvf3j60KCLQfr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3mFn6jVcHR1opbcVc2-2" value="&lt;b&gt;Load The Image File Into&lt;br&gt;Byte Array&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="350" y="130" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D9F1FF;" vertex="1" parent="1">
+          <mxGeometry x="315" y="220" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iNnOa1lNvf3j60KCLQfr-7" target="iNnOa1lNvf3j60KCLQfr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-7" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Generate&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;A Secret Key(256 Bit)&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.011;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iNnOa1lNvf3j60KCLQfr-8" target="iNnOa1lNvf3j60KCLQfr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-8" value="&lt;b&gt;Initialize&lt;br&gt;The AES Byte Array With The Secret Key&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iNnOa1lNvf3j60KCLQfr-14" target="iNnOa1lNvf3j60KCLQfr-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-14" value="&lt;b&gt;Generation Of Encrypted&amp;nbsp;&lt;br&gt;Image&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="327" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-17" value="&lt;b&gt;Save Encrypted Image&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFFF;size=23;" vertex="1" parent="1">
+          <mxGeometry x="130" y="540" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iNnOa1lNvf3j60KCLQfr-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-19" value="&lt;b&gt;Image Decrypted Using Same&amp;nbsp;&lt;br&gt;Secrete Key&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="315" y="550" width="225" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-22" value="&lt;b&gt;Save Decrypted Image&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFFF;size=23;" vertex="1" parent="1">
+          <mxGeometry x="590" y="540" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iNnOa1lNvf3j60KCLQfr-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="600" as="sourcePoint" />
+            <mxPoint x="310" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
